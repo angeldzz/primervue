@@ -6,6 +6,7 @@
         <li class="menu-item"><router-link to="/musica" class="menu-link">Musica</router-link></li>
         <li class="menu-item"><router-link to="/ciclosVida" class="menu-link">Ciclos Vida</router-link></li>
         <li class="menu-item"><router-link to="/directivas" class="menu-link">Directivas</router-link></li>
+        <li class="menu-item"><router-link to="/parimpar" class="menu-link">Par Impar</router-link></li>
     </ul>
   </div>
 </template>

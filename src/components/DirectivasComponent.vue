@@ -4,8 +4,6 @@
     <h3>{{ $data }}</h3>
     <label>Introduzca numero: </label>
     <input type="number" v-model="numero">
-    <h3 v-if="numero % 2 === 0">Par</h3>
-    <h3 v-if="numero % 2 !== 0">Impar</h3>
     <h3 v-if="numero > 0">Positivo</h3>
     <h3 v-else-if="numero < 0">Negativo</h3>
     <h3 v-else>Cero</h3>
