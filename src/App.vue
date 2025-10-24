@@ -2,7 +2,6 @@
 <div>
   <MenuComponent/>
   <router-view></router-view>
-  <h1>Elemento estatico</h1>
 </div>
 </template>
 

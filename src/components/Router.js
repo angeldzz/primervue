@@ -5,13 +5,14 @@ import { createRouter,createWebHistory } from 'vue-router'
 import CineComponent from '../components/CineComponent.vue'
 import HomeComponent from '../components/HomeComponent.vue'
 import MusicaComponent from '../components/MusicaComponent.vue'
-
+import CiclosVida from '../components/CiclosVida.vue'
 //Un array con las rutas de navegacion
 
 const myRoutes = [
     {path:"/", component: HomeComponent},
     {path:"/cine", component: CineComponent},
     {path:"/musica", component: MusicaComponent},
+    {path:"/ciclosVida", component: CiclosVida},
 ]
 //Creamos una variable para el router indicando el tipo de navegacion y las rutas
 const router = createRouter({
