@@ -1,23 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HolaMundo msg="Welcome to Your Vue.js App"/>
-  <CineComponentVue/>
-  <HomeComponent/>
-  <MusicaComponentVue/>
+<div>
+  <MenuComponent/>
+  <router-view></router-view>
+  <h1>Elemento estatico</h1>
+</div>
 </template>
 
 <script>
-import CineComponentVue from './components/CineComponent.vue'
-import HolaMundo from './components/HelloWorld.vue'
-import HomeComponent from './components/HomeComponent.vue'
-import MusicaComponentVue from './components/MusicaComponent.vue'
+import MenuComponent from './components/MenuComponent.vue'
 export default {
   name: 'App',
   components: {
-    HolaMundo,
-    CineComponentVue,
-    HomeComponent,
-    MusicaComponentVue
+    MenuComponent
   }
 }
 </script>
@@ -31,4 +25,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+@import url('./assets/css/estilos.css');
 </style>
