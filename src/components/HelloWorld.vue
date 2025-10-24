@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>Mi primer vue de viernes. que ilusion!!!</h1>
+    <img src="../assets/images/TunTunSahur.png">
     <h2>Su nombre es {{ nombre }}</h2>
     <h2>Su edad es {{ edad }}</h2>
     <h2>Su Array es {{ miArray }}</h2>
@@ -29,4 +30,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1{ color:blue }
+@import url('../assets/css/estilos.css');
 </style>
