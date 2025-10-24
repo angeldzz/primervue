@@ -6,6 +6,7 @@ import CineComponent from '../components/CineComponent.vue'
 import HomeComponent from '../components/HomeComponent.vue'
 import MusicaComponent from '../components/MusicaComponent.vue'
 import CiclosVida from '../components/CiclosVida.vue'
+import DirectivasComponent from "../components/DirectivasComponent.vue";
 //Un array con las rutas de navegacion
 
 const myRoutes = [
@@ -13,6 +14,7 @@ const myRoutes = [
     {path:"/cine", component: CineComponent},
     {path:"/musica", component: MusicaComponent},
     {path:"/ciclosVida", component: CiclosVida},
+    {path:"/directivas", component: DirectivasComponent},
 ]
 //Creamos una variable para el router indicando el tipo de navegacion y las rutas
 const router = createRouter({
