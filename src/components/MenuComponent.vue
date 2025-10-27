@@ -7,6 +7,7 @@
         <li class="menu-item"><router-link to="/ciclosVida" class="menu-link">Ciclos Vida</router-link></li>
         <li class="menu-item"><router-link to="/directivas" class="menu-link">Directivas</router-link></li>
         <li class="menu-item"><router-link to="/parimpar" class="menu-link">Par Impar</router-link></li>
+        <li class="menu-item"><router-link to="/propiedadConmutada" class="menu-link">Propiedad Conmutada</router-link></li>
     </ul>
   </div>
 </template>
